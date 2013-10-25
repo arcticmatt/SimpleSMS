@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+            name="pref_start_noti_settings_list_entries">
+        <item>Clearable</item>
+        <item>Pinned</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_start_noti_settings_list_values">
+        <item>Clearable</item>
+        <item>Pinned</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_list_text_size_entries">
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14 (Default)</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+
+
+    </string-array>
+
+    <string-array
+            name="pref_list_text_size_values">
+
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+
+    </string-array>
+
+    <!-- Queue arrays -->
+
+    <string-array
+            name="pref_queue_sms_repeat_entries">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5 (default)</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_queue_sms_repeat_values">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_queue_noti_repeat_entries">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5 (default)</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>Infinite</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_queue_noti_repeat_values">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_alarm_sound_type_entries">
+
+        <item>Ringtone</item>
+        <item>Music</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_alarm_sound_type_values">
+
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_themes_activity_entries">
+
+        <item>Light</item>
+        <item>Dark</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_themes_activity_values">
+
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_themes_sms_list_entries">
+
+        <item>Gray</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Turquoise</item>
+
+    </string-array>
+
+    <string-array
+            name="pref_themes_sms_list_values">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+
+    </string-array>
+
+
+    <string-array
+        name="pref_themes_icon_color_entries">
+
+        <item>Red</item>
+        <item>Black/White</item>
+
+    </string-array>
+
+    <string-array
+        name="pref_themes_icon_color_values">
+
+    <item>1</item>
+    <item>2</item>
+
+    </string-array>
+
+</resources>

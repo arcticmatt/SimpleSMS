@@ -1,0 +1,95 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:id="@+id/activity_main_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="horizontal">
+
+        <com.jm2.simplesms.CustomAutoComplete
+            android:id="@+id/chooseContact"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/send_to"
+            android:textColorHint="@android:color/darker_gray"
+            android:singleLine="false"
+            android:windowSoftInputMode="stateUnchanged">
+        </com.jm2.simplesms.CustomAutoComplete>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/prefsButton"
+            android:onClick="launchPrefsOnClick"
+            android:background="@drawable/ic_settings"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="14"
+            android:scrollbars="vertical"
+            android:hint="@string/edit_message"
+            android:textColorHint="@android:color/darker_gray"
+            />
+
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send_sms"
+            android:textSize="15sp"
+            android:onClick="sendSms"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:id="@+id/separator"
+        android:visibility="invisible"
+        android:background="@color/dark_yellow"/>
+
+    <fragment
+        android:name="com.jm2.simplesms.SMSList"
+        android:id="@+id/SMSListFragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        />
+
+
+</LinearLayout>
+

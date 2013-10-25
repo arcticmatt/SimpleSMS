@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2012 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+    <color name="white">#fff3f3f3</color>
+    <color name="black">#000000</color>
+    <color name="gray">#ff3f3f3f</color>
+    <color name="action_bar_gray">#ff292929</color>
+    <!--<color name="action_bar_gray">#ff2e2e2e</color>-->
+    <color name="green">#ff0fd100</color>
+
+
+    <color name="lighter_blue">#A8DFF4</color>
+    <color name="light_green">#ff5fc940</color>
+    <color name="light_yellow">#ffffed5d</color>
+    <color name="light_divider_yellow">#ffdfd052</color>
+    <color name="light_blue">#ff39bdf1</color>
+    <color name="light_gray">#ffbcbcbc</color>
+    <color name="dark_divider">#ffbababa</color>
+    <color name="light_red">#ffeb5552</color>
+    <color name="light_orange">#fffdad0c</color>
+    <color name="light_purple">#ffdc66fd</color>
+
+    <color name="turquoise">#aaffcc</color>
+    <color name="turquoise_dark">#ff86c9a1</color>
+
+    <color name="dark_orange">#ffb56e11</color>
+    <color name="dark_blue">#ff1a77ab</color>
+    <color name="dark_red">#ffad0000</color>
+    <color name="dark_yellow">#ffa0943b</color>
+    <color name="dark_green">#ff428d2d</color>
+    <color name="dark_purple">#ff9531bb</color>
+</resources>

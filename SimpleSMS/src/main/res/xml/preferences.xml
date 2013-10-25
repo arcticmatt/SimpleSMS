@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@layout/custom_prefs">
+    <PreferenceCategory
+        android:title="@string/pref_notis_category"
+        android:key="pref_key_notis_settings">
+    <CheckBoxPreference
+        android:key="@string/pref_start_noti_on_off"
+        android:title="@string/pref_start_noti_on_off_title"
+        android:summary="@string/pref_start_noti_on_off_summ"
+        android:defaultValue="true"
+        android:checked="true" />
+
+    <ListPreference
+        android:dependency="@string/pref_start_noti_on_off"
+        android:key="pref_start_noti_settings"
+        android:title="@string/pref_start_noti_title"
+        android:summary="@string/pref_start_noti_settings_summ_pinned"
+        android:dialogTitle="@string/pref_start_noti_settings_title"
+        android:entries="@array/pref_start_noti_settings_list_entries"
+        android:entryValues="@array/pref_start_noti_settings_list_values"
+        android:defaultValue="@string/pref_start_noti_settings_default" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_list_category"
+        android:key="pref_key_list_settings">
+
+        <ListPreference
+            android:key="pref_list_text_size"
+            android:title="@string/pref_list_text_size_title"
+            android:summary="@string/pref_list_text_size_summ"
+            android:dialogTitle="@string/pref_list_text_size_dialog"
+            android:entries="@array/pref_list_text_size_entries"
+            android:entryValues="@array/pref_list_text_size_values"
+            android:defaultValue="14"></ListPreference>
+
+        <EditTextPreference
+            android:key="pref_list_sms_count"
+            android:title="@string/pref_list_sms_count_title"
+            android:summary="@string/pref_list_sms_count_summ"
+            android:dialogTitle="@string/pref_list_sms_count_dialog"
+            android:defaultValue="50"
+            android:inputType="number"></EditTextPreference>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_sms_category"
+        android:key="pref_key_queue_sms_settings">
+        <CheckBoxPreference
+            android:key="@string/pref_key_queue_sms_on_off"
+            android:title="@string/pref_queue_sms_on_off_title"
+            android:summary="@string/pref_queue_sms_on_off_summ"
+            android:defaultValue="false"
+            android:checked="false" />
+        <ListPreference
+            android:dependency="@string/pref_key_queue_sms_on_off"
+            android:key="@string/pref_key_queue_sms_repeat"
+            android:title="@string/pref_queue_sms_repeat_title"
+            android:summary="@string/pref_queue_sms_repeat_summ"
+            android:dialogTitle="@string/pref_queue_sms_repeat_dialog_title"
+            android:entries="@array/pref_queue_sms_repeat_entries"
+            android:entryValues="@array/pref_queue_sms_repeat_values"
+            android:defaultValue="5" />
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="@string/pref_themes_category"
+        android:key="pref_key_themes_settings">
+        <ListPreference
+            android:key="pref_key_themes_activities"
+            android:title="@string/pref_themes_activity_title"
+            android:summary="@string/pref_themes_activity_summ"
+            android:dialogTitle="@string/pref_themes_activity_dialog"
+            android:entries="@array/pref_themes_activity_entries"
+            android:entryValues="@array/pref_themes_activity_values"
+            android:defaultValue="1" />
+        <ListPreference
+            android:key="pref_key_themes_sms_list"
+            android:title="@string/pref_themes_sms_list_title"
+            android:summary="@string/pref_themes_sms_list_summ"
+            android:dialogTitle="@string/pref_themes_sms_list_dialog"
+            android:entries="@array/pref_themes_sms_list_entries"
+            android:entryValues="@array/pref_themes_sms_list_values"
+            android:defaultValue="8" />
+        <ListPreference
+            android:key="pref_key_themes_dialogs"
+            android:title="@string/pref_themes_dialog_title"
+            android:dialogTitle="@string/pref_themes_dialog_dialog"
+            android:entries="@array/pref_themes_activity_entries"
+            android:entryValues="@array/pref_themes_activity_values"
+            android:defaultValue="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_other_category"
+        android:key="pref_key_other_settings">
+        <CheckBoxPreference
+            android:key="pref_key_keyboard_on_off"
+            android:title="@string/pref_keyboard_on_off_title"
+            android:summary="@string/pref_keyboard_on_off_summ"
+            android:defaultValue="false"
+            android:checked="false" />
+        <CheckBoxPreference
+            android:key="pref_key_receive_sms_toast_on_off"
+            android:title="@string/pref_receive_sms_toast_on_off_title"
+            android:summary="@string/pref_receive_sms_toast_on_off_summ"
+            android:defaultValue="true"
+            android:checked="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
